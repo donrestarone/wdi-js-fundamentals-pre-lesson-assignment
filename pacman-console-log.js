@@ -30,3 +30,10 @@ console.log(ghosts.blinky);
 // square bracket notation
 console.log(ghosts['inky']);
 console.log(ghosts['blinky']);
+
+
+console.log('for loop')
+
+for (var index = 0; index < ghosts.length; index++) {
+	console.log('Pac-Man eats ' + ghosts[index]);
+}
