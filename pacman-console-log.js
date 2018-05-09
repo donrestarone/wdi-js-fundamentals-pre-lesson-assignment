@@ -32,8 +32,9 @@ console.log(ghosts['inky']);
 console.log(ghosts['blinky']);
 
 
+// for loop
 console.log('for loop')
-
+var ghosts = ['Inky', 'Blinky', 'Pinky', 'Clyde'];
 for (var index = 0; index < ghosts.length; index++) {
 	console.log('Pac-Man eats ' + ghosts[index]);
 }
